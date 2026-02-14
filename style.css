@@ -3,66 +3,66 @@
    ========================================================================== */
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
-    font-size: 100%;
+  font-size: 100%;
 }
 
 body {
-    margin: 0;
-    font-family: poppins, sans-serif;
-    line-height: 1.6;
-    color: var(--white);
-    background-color: var(--gris-oscuro);
+  margin: 0;
+  font-family: poppins, sans-serif;
+  line-height: 1.6;
+  color: var(--white);
+  background-color: var(--gris-oscuro);
 }
 
 /* ==========================================================================
    Variables CSS
    ========================================================================== */
 
-   /* 
+/* 
    */
 
 :root {
-    --amarillo: #ffe74f;
-    --gris-oscuro: #0a0a0a;
-    --negro: #000000;
-    --morado: #8c02ff;
-    --morado-oscuro: #5a00a3;
-    --white: #ffffff;
+  --amarillo: #ffe74f;
+  --gris-oscuro: #0a0a0a;
+  --negro: #000000;
+  --morado: #8c02ff;
+  --morado-oscuro: #5a00a3;
+  --white: #ffffff;
 }
 
 /* ==========================================================================
    Estilos para el header
    ========================================================================== */
 header {
-    background-color: var(--amarillo);
-    color: var(--white);
-    padding: 1rem 0;
-    font-size: 1rem;
+  background-color: var(--amarillo);
+  color: var(--white);
+  padding: 1rem 0;
+  font-size: 1rem;
 }
 
 .contenedor-menu {
-    display: flex;
-    width: 80%;
-    margin: 0 auto;
-    text-align: center;
-    justify-content: center;
-    gap: 2rem;
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+  gap: 2rem;
 }
 
 .contenedor-menu a {
-    color: var(--white);
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-    border-radius: 8px;
-    background-color: var(--gris-oscuro);
+  color: var(--white);
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  background-color: var(--gris-oscuro);
 }
 
 .contenedor-menu a:hover {
-    background-color: var(--morado);
+  background-color: var(--morado);
 }
 
 /* .contenedor-menu a:hover{
@@ -70,99 +70,109 @@ header {
 } */
 
 .contenedor {
-    width: 70%;
-    margin: 0 auto;
-    text-align: center;
-    padding: 0.5rem 2rem 2rem 2rem;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0.5rem 2rem 2rem 2rem;
 }
-.contenedor p{
-    width: 80%;
-    margin: 0 auto 2rem;
+.contenedor p {
+  width: 80%;
+  margin: 0 auto 2rem;
 }
 
 .contenedor-secciones {
-    display: flex;
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
-    justify-content: center;
-    gap: 2rem;;
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+  gap: 2rem;
 }
 
 .contenedor-imagenes {
-    background-color: var(--white);
-    width: 80%;
-    margin: 0 auto;
-    text-align: center;
-    padding: 0 1rem;
-    min-width: 300px;
-    color : var(--negro);
-    border-radius: 10px;
+  background-color: var(--white);
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 1rem;
+  min-width: 300px;
+  color: var(--negro);
+  border-radius: 10px;
 }
-.contenedor-imagenes p{
-    margin-bottom: 0.8rem;
+.contenedor-imagenes p {
+  margin-bottom: 0.8rem;
 }
 
 .contenedor-imagenes a {
-    display: inline-block;
-    background-color: var(--morado);
-    padding: 0.8rem;
-    border-radius: 8px;
-    margin-bottom: 1rem;
-    color: var(--white);
-    text-decoration: none;
+  display: inline-block;
+  background-color: var(--morado);
+  padding: 0.8rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  color: var(--white);
+  text-decoration: none;
 }
 
 .contenedor-imagenes a:hover {
-    background-color: var(--morado-oscuro);
+  background-color: var(--morado-oscuro);
 }
 
 .contenedor-contacto {
-    color: var(--negro);
-    background-color: var(--white);
-    width: 80%;
-    margin: 0 auto;
-    text-align: center;
-    padding: 0 1rem;
-    border-radius: 10px;
+  color: var(--negro);
+  background-color: var(--white);
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 1rem;
+  border-radius: 10px;
 }
 
 /* .contenedor-contacto h2{
 } */
 
 .contenedor-formulario {
-    font-weight: 700;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    column-gap: 1rem;
-    row-gap: 0.3rem;
-    padding: 0 1rem;
+  font-weight: 700;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  column-gap: 1rem;
+  row-gap: 0.3rem;
+  padding: 0 1rem;
 }
 
 .contenedor-formulario button {
-    margin-top: 0.5rem;
-    margin-bottom: 0.8rem;
-    grid-column: span 2;
-    padding: 0.5rem;
-    background-color: var(--morado);
-    color: white;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
+  margin-top: 0.5rem;
+  margin-bottom: 0.8rem;
+  grid-column: span 2;
+  padding: 0.5rem;
+  background-color: var(--morado);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
 }
 
 .contenedor-formulario button:hover {
-    background-color: var(--morado-oscuro);
+  background-color: var(--morado-oscuro);
 }
 
-
+.canvio {
+  display: block;
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #302b63;
+  color: white;
+  border: none;
+}
 
 footer {
-    background-color: var(--negro);
-    color: white;
-    text-align: center;
-    padding: 1rem 0;
-    border-top: #333 solid 1px;
+  background-color: var(--negro);
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  border-top: #333 solid 1px;
 }
 
 /* ==========================================================================
@@ -170,8 +180,8 @@ footer {
    ========================================================================== */
 
 @media (max-width: 768px) {
-    .contenedor-secciones {
-        flex-direction: column;
-        align-items: center;
-    }
+  .contenedor-secciones {
+    flex-direction: column;
+    align-items: center;
+  }
 }
