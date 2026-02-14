@@ -1,5 +1,5 @@
 const d = document,
-  $buttonCanvio = d.querySelector(".canvio");
+  $buttonCanvio = d.querySelector(".cambio");
 
 const id = d.querySelector("body").id;
 
