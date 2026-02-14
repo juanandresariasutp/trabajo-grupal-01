@@ -24,10 +24,128 @@ header {
     background-color: #4CAF50;
     color: white;
     padding: 1rem 0;
+    font-size: 1.3rem;
 }
+
+.contenedor-menu {
+    display: flex;
+    background-color: red;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.contenedor-menu a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    background-color: #333;
+}
+
+.contenedor-menu a:hover {
+    background-color: #555;
+}
+
+/* .contenedor-menu a:hover{
+    background-color: #555;
+} */
 
 .contenedor {
     background-color: aqua;
     width: 80%;
     margin: 0 auto;
+    text-align: center;
+    padding: 2rem;
+}
+
+.contenedor-secciones {
+    display: flex;
+    background-color: pink;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.contenedor-imagenes {
+    border: #333 solid 1px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 1rem;
+    min-width: 300px;
+}
+
+.contenedor-imagenes a {
+    display: inline-block;
+    background-color: #ffffff;
+    padding: 0.8rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    color: blue;
+    text-decoration: none;
+}
+
+.contenedor-imagenes a:hover {
+    background-color: #f0f0f0;
+}
+
+.contenedor-contacto {
+    border: #333 solid 1px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+/* .contenedor-contacto h2{
+} */
+
+.contenedor-formulario {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    column-gap: 1rem;
+    row-gap: 0.3rem;
+    padding: 0 1rem;
+    background-color: #f9f9f9;
+}
+
+.contenedor-formulario button {
+    margin-top: 0.5rem;
+    margin-bottom: 0.8rem;
+    grid-column: span 2;
+    padding: 0.5rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contenedor-formulario button:hover {
+    background-color: #45a049;
+}
+
+
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* ==========================================================================
+  media queries para diseño responsivo
+   ========================================================================== */
+
+@media (max-width: 768px) {
+    .contenedor-secciones {
+        flex-direction: column;
+        align-items: center;
+    }
 }
